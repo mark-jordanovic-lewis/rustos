@@ -3,7 +3,7 @@ when :linux then `cp ./templates/system/linux ./src/main.rs`
 when :mac then `cp ./templates/system/mac ./src/main.rs`
 end
 
-buildcmd = %w[RUST_TARGET_PATH=$(pwd) cargo build --target target_blog_os.json]
+buildcmd = %w[RUST_TARGET_PATH=$(pwd) cargo build --target x86_64-blog_os.json]
 
 exec(buildcmd.join(' '))
 

@@ -1,0 +1,1 @@
+/Users/marklewis/Documents/Code/morbidslug/training/more_rust/os_tutorial/blog_os/target/x86_64-blog_os/debug/blog_os: /Users/marklewis/Documents/Code/morbidslug/training/more_rust/os_tutorial/blog_os/src/main.rs /Users/marklewis/Documents/Code/morbidslug/training/more_rust/os_tutorial/blog_os/src/vga_buffer.rs

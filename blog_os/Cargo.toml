@@ -4,11 +4,19 @@ version = "0.1.0"
 authors = ["mark-jordanovic-lewis <mark.4ndrew.lewis@gmail.com>"]
 
 [dependencies]
+bootloader_precompiled = "0.2.0"
+volatile = "0.2.3"
+spin = "0.4.6"
 
+[dependencies.lazy_static]
+version = "1.0"
+features = ["spin_no_std"]
 
+[package.metadata.bootimage]
+default-target = "x86_64-blog_os.json"
 
 # For a std alone binary to run on a specfic os (see templates/system/main.rs)
-# the target_blog_os.json panic-strategy key replaces this
+# the x86_64-blog_os.json panic-strategy key replaces this
 
 # [profile.dev]
 # panic = "abort"
