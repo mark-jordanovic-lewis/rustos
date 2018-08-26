@@ -1,0 +1,18 @@
+[package]
+name = "blog_os"
+version = "0.1.0"
+authors = ["mark-jordanovic-lewis <mark.4ndrew.lewis@gmail.com>"]
+
+[dependencies]
+
+
+
+# For a std alone binary to run on a specfic os (see templates/system/main.rs)
+# the target_blog_os.json panic-strategy key replaces this
+
+# [profile.dev]
+# panic = "abort"
+
+# [profile.release]
+# panic = "abort"
+
