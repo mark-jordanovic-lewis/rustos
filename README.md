@@ -1,0 +1,1 @@
+- Following tutorial with an eye to make a minimal os for older machines.
